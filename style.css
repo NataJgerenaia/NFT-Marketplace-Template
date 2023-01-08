@@ -89,6 +89,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform .2s;
+}
+.button-bid:hover{
+    transform: scale(1.1); 
+    background-color: white;
+    color: #A259FF;
 }
 .autor {
     color: rgb(128, 123, 123);
@@ -120,6 +126,10 @@ p {
     justify-content: center;
     font-weight: 600;
     letter-spacing: 1px;
+    transition: transform .2s;
+}
+.tag:hover {
+    transform: scale(1.1); 
 }
 .tag-lil {
     width: 110px;
@@ -134,12 +144,15 @@ p {
     margin-top: 70px;
 }
 .nft-pic-1 {
-    /* height: 460px; */
     display: block;
     width: 100%;
     border-radius: 20px;
     background-color: rgba(95, 92, 92, 0.336);
     margin-top: 30px;
+    transition: transform .2s;
+}
+.nft-pic-1:hover {
+    transform: scale(1.1); 
 }
 .bear {
     width: 100%;
@@ -187,4 +200,55 @@ p {
     justify-content: space-between;
     margin-top: 30px;
     margin-bottom: 20px;
+}
+.goto {
+    width: 100%;
+    height: 60px;
+    border:2px solid #A259FF;
+    font-family:'Montserrat', sans-serif;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    color: white;
+    transition: transform .2s;
+}
+.goto:hover {
+    transform: scale(1.1); 
+    background-color: black;
+    border: none;
+}
+.goto-text {
+    margin-left: 10px;
+}
+footer {
+    background-color: rgba(95, 92, 92, 0.336);
+    width: 100%;
+    height: 250px;
+    padding-top: 20px;
+}
+.logo-text {
+    display: flex;
+    align-items: center;
+}
+.logos-text {
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    padding-left: 10px;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(128, 123, 123);
+    border-radius: 50px;
+}
+.footer-p {
+    color: rgb(128, 123, 123);
+    font-size: 0.9em;
+    margin-bottom: 30px;
+}
+.last-p {
+    color: rgb(128, 123, 123);
+    font-size: 0.8em;
 }
