@@ -84,6 +84,8 @@ header {
     background-color: #A259FF;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,4 +104,29 @@ p {
     font-weight: 200;
     line-height: 20px;
     letter-spacing: 1px;
+}
+.earth-logo2 {
+    margin-top: 10px;
+}
+.tag {
+    height: 45px;
+    background-color: rgba(95, 92, 92, 0.336);
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.tag-lil {
+    width: 110px;
+}
+.tag-med {
+    width: 150px;
+}
+.tag-long {
+    width: 175px;
 }
