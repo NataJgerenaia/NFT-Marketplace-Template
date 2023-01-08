@@ -88,3 +88,18 @@ header {
     align-items: center;
     justify-content: center;
 }
+.autor {
+    color: rgb(128, 123, 123);
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+p {
+    color: white;
+    margin-top: 20px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
