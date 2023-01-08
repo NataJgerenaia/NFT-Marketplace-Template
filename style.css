@@ -130,3 +130,61 @@ p {
 .tag-long {
     width: 175px;
 }
+.more {
+    margin-top: 70px;
+}
+.nft-pic-1 {
+    /* height: 460px; */
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgba(95, 92, 92, 0.336);
+    margin-top: 30px;
+}
+.bear {
+    width: 100%;
+}
+.nft-name {
+    font-family:'Montserrat', sans-serif;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.container-lil {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.orbition-avatar {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.orbition {
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+.price {
+    font-size: 1em;
+    color: rgb(128, 123, 123); 
+    font-family:'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+.num {
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    font-family:'Montserrat', sans-serif;
+    padding-top: 10px;
+}
+.price-num-bid {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
