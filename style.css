@@ -22,6 +22,9 @@ header {
 .main-img {
     width: 100%;
 }
+.main-res {
+    display: none;
+}
 .caption-text {
     margin-top: 30px;
 }
@@ -228,6 +231,9 @@ footer {
     height: 250px;
     padding-top: 20px;
 }
+.goto-res {
+    display: none;
+}
 .logo-text {
     display: flex;
     align-items: center;
@@ -243,6 +249,9 @@ footer {
     background-color: rgb(128, 123, 123);
     border-radius: 50px;
 }
+.city-res {
+    display: none;
+}
 .footer-p {
     color: rgb(128, 123, 123);
     font-size: 0.9em;
@@ -251,4 +260,65 @@ footer {
 .last-p {
     color: rgb(128, 123, 123);
     font-size: 0.8em;
+}
+
+@media (min-width:768px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .auction-time-all {
+        display: flex;
+    }
+    .goto-bef-res {
+        display: none;
+    }
+    .auction-time {
+        order: 2;
+        margin-left: 30px;
+    }
+    .goto-res {
+        display: flex;
+        width: 50%;
+        margin: 0;
+    }
+    .caption {
+        margin:0;
+    }
+    .capt-butt {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .all-nft-cont {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .nft-pic-1 {
+        width: 48%;
+    }
+}
+@media (min-width:1024px) {
+    .container {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .auction-time {
+        margin-left: 100px;
+    }
+    .nft-pic-1 {
+        width: 30%;
+    }
+    .city-res {
+        display: block;
+    }
+    .main-img {
+        display: none;
+    }
+    .main-res {
+        display: block;
+        width: 100%;
+    }
 }
